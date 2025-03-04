@@ -1,0 +1,70 @@
+#les img{
+width: 23%;
+height: 300px;
+object-fit: cover;
+}
+#les{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#les img:hover{
+    transform: scale(1.2);
+}
+#les img{
+    cursor:pointer;
+    transition:all 1s;
+}
+table{
+    border: 1px groove rgb(37, 54, 237);
+    border-spacing: 10px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-top: 5%;
+     /* border-collapse: collapse; */
+}
+td{
+    border: 1px groove rgb(207, 135, 231);
+    padding: 8px;
+    text-align: center;
+}
+caption{
+    border: 1px groove rgb(37, 54, 237);
+    
+}
+#film video{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+#film {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(249, 249, 92);
+    margin-top: 3%;
+}
+#opros{
+    padding: 50px;
+    background-color: rgb(252, 252, 85);
+    text-align: center;
+}
+#sun{
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: run 5s infinite;
+}
+@keyframes run{
+    from{
+        left: 20%;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 80%;
+        transform: rotate(360deg);
+    }
+    to{
+        left: 20%;
+        transform: rotate(0deg);
+    }
+}

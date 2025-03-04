@@ -1,0 +1,211 @@
+header{
+    height: 100vh;
+    background-image: url(img/tianlei-wu-wDogE5XQsFY-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header div{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(223, 203, 229, 0.322);
+    background:linear-gradient(rgba(231, 61, 194, 0.452),rgba(157, 107, 138, 0.363)) ;
+}
+header h1{
+    margin:auto;
+    font-family: PressStart;
+    font-size: 7vw;
+    color: rgb(62, 21, 94);
+
+}
+@font-face {
+    font-family: PressStart;
+    src: url(fonts/Triodion/Triodion-Regular.ttf);
+}
+#poem{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    background-color: rgb(213, 144, 155);
+}
+#poem p{
+    font-size:15px;
+    font-size:20px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+     border: 10px dashed rgb(233, 196, 151);
+     padding: 10px;
+}
+#poem img{
+    width: 300px;
+    object-fit: cover; 
+}
+header{
+    background-attachment:fixed;
+}
+#priznaki{
+    font-size:20px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+     border: 10px groove rgb(130, 66, 126);
+     padding: 20px;
+     background-color: rgb(214, 158, 193);
+}
+#priznaki h3{
+    text-align:center;
+}
+#prazdniki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    background-color: rgb(221, 39, 169);
+    padding:50px;
+    object-fit:cover ;
+    border:10px groove rgb(230, 164, 214);
+    font-size:20px ;
+font-family:10px ;
+line-height:2;
+text-align: center;
+padding: 50px;
+background-image: url(img/premium_photo-1723718620339-a8e5c783dce3.avif);
+background-size: cover;
+}
+#prazdniki a{
+    color: rgb(107, 42, 100);
+    width: 70%;
+    padding: 20px;
+    background-color:#d9b7ef;
+    border: 5px groove rgb(84, 65, 107);
+text-decoration:none;
+font-size: 30px;
+transition: all 1s;
+}
+#prazdniki a:hover{
+border-radius: 20px;
+color:rgb(181, 143, 224);
+background-color: rgb(39, 5, 61);
+}
+#priznaki h2{
+    text-align: center;
+    color: #a47872;
+
+}  
+#priznaki ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    font-size: 30px;
+}
+   
+#priznaki li:first-child{
+    background-image: url(img/plant_leaf_flower_abstract_icon_181451.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(2){
+        background-image: url(img/water-sea_icon-icons.com_74476\ \(1\).png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 40px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#priznaki li:nth-child(3){
+    background-image: url(img/1494258045-sunsunnyweatherspringforecastsummer_84343.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(4){
+    background-image: url(img/spring_bird_fly_animal_tweet_wings_beak_icon_133277.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tihyden{
+    background-color: #ff9dc1;
+    text-align: center;
+    border:10px groove rgb(230, 164, 214);
+}
+#tihyden img{
+    border: 20px groove pink;
+}
+#kirpich{
+    background-color: #dac7e6;
+  text-align: center; 
+  border: 10px groove rgb(230, 164, 214);
+ 
+}
+#kirpich img{
+width: 350px;
+height: 350px;
+justify-content:baseline; 
+margin-left: 5%;
+border: 3px dashed purple;
+ margin-top: 10px;
+ margin-bottom: 9px;
+}
+#kalendar{
+    border: 10px groove rgb(245, 184, 246);
+    background-color: #e8c8fe;
+  margin-top: 5px;
+}
+#kalendar td{
+    border: 3px groove pink;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+}
+#kalendar table{
+     text-align: center;
+       
+}
+#kalendar section{
+    background-color: #e8c8fe;
+  
+}
+#film video{
+    border: 15px groove pink;
+   width: fit-content;
+    margin-left: 250px;
+}
+#film{
+    padding: 5px;
+}
+#kapli{
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    animation: run 5s infinite;
+}
+@keyframes run{
+    from{
+        top: 50px;
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to{
+        top: 1500px;;
+        transform: rotate(720deg);
+        opacity: 0;
+    }
+}
+
+

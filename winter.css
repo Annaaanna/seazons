@@ -1,0 +1,174 @@
+header{
+    height: 100vh;
+    background-image: url(img/iiiii.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header div{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(193, 230, 252, 0.322);
+    background:linear-gradient(rgba(96, 194, 243, 0.452),rgba(157, 107, 138, 0.363)) ;
+}
+header h1{
+    margin:auto;
+    font-family: PressStart;
+    font-size: 7vw;
+    color: rgb(21, 120, 159);
+
+}
+@font-face {
+    font-family: PressStart;
+    src: url(fonts/Triodion/Triodion-Regular.ttf);
+}
+#poem{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    background-color: rgb(160, 220, 255);
+}
+#poem p{
+    font-size:15px;
+    font-size:20px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+     border: 10px groove rgb(115, 177, 243);
+     padding: 10px;
+}
+#poem img{
+    width: 300px;
+    object-fit: cover; 
+}
+header{
+    background-attachment:fixed;
+}
+#priznaki{
+    font-size:20px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+     border: 10px groove rgb(122, 118, 227);
+     padding: 20px;
+     background-color: rgb(148, 189, 254);
+}
+#priznaki h3{
+    text-align:center;
+}
+#prazdniki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    background-color: rgb(39, 106, 221);
+    padding:50px;
+    object-fit:cover ;
+    border:10px groove rgb(182, 164, 230);
+    font-size:20px ;
+font-family:10px ;
+line-height:2;
+text-align: center;
+padding: 50px;
+background-image: url(img/049abec87b46eaa562b4a9fa985cf271.jpg);
+background-size: cover;
+}
+#prazdniki a{
+    color: rgb(42, 55, 107);
+    width: 70%;
+    padding: 20px;
+    background-color:#b7c9ef;
+    border: 5px groove rgb(73, 65, 107);
+text-decoration:none;
+font-size: 30px;
+transition: all 1s;
+}
+#prazdniki a:hover{
+border-radius: 20px;
+color:rgb(120, 145, 237);
+background-color: rgb(28, 56, 112);
+}
+#priznaki h2{
+    text-align: center;
+    color: #7572a4;
+
+}  
+#priznaki ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    font-size: 30px;
+}
+   
+#priznaki li:first-child{
+    background-image: url(img/Winter-80_icon-icons.com_57238.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#priznaki li:nth-child(2){
+        background-image: url(img/tradition_autumn_holiday_fall_weather_icon_227940.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 40px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#priznaki li:nth-child(3){
+    background-image: url(img/moon_night_midnight_2768.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#kirpich{
+    background-color: #c7cde6;
+  text-align: center; 
+  border: 10px groove rgb(164, 173, 230);
+ 
+}
+#kirpich img{
+width: 350px;
+height: 350px;
+justify-content:baseline; 
+margin-left: 5%;
+border: 3px solid rgb(0, 21, 128);
+ margin-top: 10px;
+ margin-bottom: 9px;
+}
+#kalendar{
+    border: 10px groove rgb(184, 190, 246);
+    background-color: #c8d4fe;
+  margin-top: 5px;
+}
+#kalendar td{
+    border: 3px groove rgb(192, 208, 255);
+    text-align: center;
+    width: 150px;
+    height: 60px;
+}
+#kalendar table{
+   text-align: center
+}
+#kalendar section{
+    background-color: rgb(147, 172, 253);
+  
+}
+#film video{
+    border: 15px groove rgb(100, 136, 253);
+   width: fit-content;
+    margin-left: 250px;
+}
+#film{
+    padding: 5px;
+}
+
